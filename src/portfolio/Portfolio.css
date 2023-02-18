@@ -1,0 +1,68 @@
+
+.Portfolio{
+    margin: 0 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav__bar{
+    display: flex;
+    background-color: rgb(250, 235, 246);
+}
+
+.my__cv{
+    padding: 0 0 0 15px;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: rgb(1, 1, 77);
+}
+.nav__buttons{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(250, 235, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    gap: .1px;
+}
+.About,.Skills,.Services,.Experience, .Education,.Portfolios,.Testimonials,.Contact{
+    background-color: rgb(1, 1, 77);
+    color: white;
+    border: .1px solid white;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+.detail__bar{
+    display: flex;
+    
+}
+.left__side{
+    width: 25vw;
+    background-color: rgb(1, 1, 77);
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.general__info{
+    padding: 0 0 15px 0;
+}
+.my__photo{
+    width: 25vw;
+    height: 50vh;
+}
+.right__side{
+    background-color: rgb(250, 235, 246);
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.skill__percentage{
+    padding: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intuition__photo, .creativity__photo{
+    height: 150px;
+    width: 150px;
+}
